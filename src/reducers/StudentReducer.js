@@ -1,7 +1,6 @@
 // Reducers are functions that return a peice of state.
 
-export default function(){
-	return [
+const students = [
 		{
 			name: "Jason",
 			seat: 5
@@ -19,4 +18,7 @@ export default function(){
 			seat: 8
 		}
 	];
+
+export default function(){
+	return students
 }

@@ -17,6 +17,6 @@ const rootReducer = combineReducers({
 	// the name of the state will be the property (used by react)
 	// the value will be the reducer file import
 	students: StudentReducer
-})
+});
 
 export default rootReducer;

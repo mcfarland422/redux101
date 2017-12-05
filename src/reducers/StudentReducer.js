@@ -19,6 +19,14 @@ const students = [
 		}
 	];
 
-export default function(){
-	return students
+// all render functions have 2 parama.
+// 1: current state
+// 2: info that came from the action
+export default function(state, action){
+	console.log(action);
+	return state;
 }
+
+// export default function(){
+//return students
+//}
